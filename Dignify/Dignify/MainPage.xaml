@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Dignify.MainPage"
+             BackgroundColor="White">
+             
+
+        <StackLayout>
+            <!-- Place new controls here -->
+            <StackLayout Margin="0,20,0,10">
+                <Image Source="dignifylogo.png"/>
+            </StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Grid.Row="0" Grid.Column="0">
+                    <ImageButton Source="bed.png"
+                    Clicked="Bed_Button_Clicked"
+                    BackgroundColor="White"/>
+                </StackLayout>
+                <StackLayout Grid.Row="0" Grid.Column="1">
+                    <ImageButton Source="hospital.png"
+                    BackgroundColor="White" Clicked="ER_Button_Clicked"/>
+                </StackLayout>
+                <StackLayout Grid.Row="1" Grid.Column="0">
+                    <ImageButton Source="map.png"
+                    BackgroundColor="White" Clicked="Map_Button_Clicked"/>
+                </StackLayout>
+                <StackLayout Grid.Row="1" Grid.Column="1">
+                    <ImageButton Source="rainbow.png"
+                    BackgroundColor="White" Clicked="Acceptance_Button_Clicked"/>
+                </StackLayout>
+                <StackLayout Grid.Row="2" Grid.Column="0">
+                    <ImageButton Source="dish.png"
+                    BackgroundColor="White" Clicked="Food_Button_Clicked"/>
+                </StackLayout>
+                <StackLayout Grid.Row="2" Grid.Column="1">
+                    <ImageButton Source="heartbeat.png"
+                    BackgroundColor="White" Clicked="Healthcare_Button_Clicked"/>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+</ContentPage>

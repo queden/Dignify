@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Dignify.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            
+            <Style x:Key="PrimaryLabel" TargetType="Label">
+                <Setter Property="FontFamily" Value="Poppins-Bold.otf#Poppins-Bold"/>
+                <Setter Property="TextColor" Value="#A7D86D"/>
+            </Style>
+            <Style x:Key="SecondaryLabel" TargetType="Label">
+                <Setter Property="FontFamily" Value="Poppins-Regular.otf#Poppins-Regular"/>
+                <Setter Property="TextColor" Value="#65617d"/>
+            </Style>
+        </ResourceDictionary>
+        
+    </Application.Resources>
+</Application>
