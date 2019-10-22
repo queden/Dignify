@@ -1,6 +1,6 @@
 # Dignify
 We created a Homeless Management Information System called **Dignify**. Dignify offers three main services:
-* Providing those in need with a centralized database of nearby shelters, food banks, and other vital services and crowd-sourcing reviews and data on when food is being served, beds are open, etc.
+* Providing those in need with a centralized database of nearby shelters, food banks, and other vital services along with crowd-sourced reviews and updates on when food is being served, beds are open, etc.
 * Providing accurate data to service providers to quantify their results to use for applying to grant funding
 * Obtaining accurate information on the homeless population to sell to cities, who are legally obligated to use HMIS's
 
